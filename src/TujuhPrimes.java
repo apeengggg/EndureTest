@@ -5,7 +5,7 @@ public class TujuhPrimes {
 		// TODO Auto-generated method stub
 		int a, b=0, c=13;
 		for (int i=b; i<=c; i++){
-            a=0;
+            a=0; 
 //            System.out.println("A adalah " + a);
 //            System.out.println("B adalah " + b);
 //            System.out.println("C adalah " + c);
