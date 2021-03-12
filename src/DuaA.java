@@ -13,6 +13,7 @@ public class DuaA {
             b++;
             a++;
             System.out.println();
+            
         }
     }
 }
