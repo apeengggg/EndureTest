@@ -10,7 +10,6 @@ public class SepuluhA {
 		for (int i=0; i<=n; i++){
             if(i==0){
             	System.out.print(x+",");
-//            	x = array[i];
             }
             x = x + primes[i];
             System.out.print(x+",");
