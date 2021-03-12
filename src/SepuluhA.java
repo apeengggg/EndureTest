@@ -3,20 +3,17 @@ public class SepuluhA {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a = 0, b=0, c=13;
+		int x = 1;
 		int n =5;
-		for (int i=b; i<=c; i++){
-            a=0;
-            for (int j=1; j<=i; j++){
-                if (i%j==0){
-                    a = a+1;
-                }
+//		int[] array = new int[n];
+		int[] primes = {2,3,5,7,11,13};
+		for (int i=0; i<=n; i++){
+            if(i==0){
+            	System.out.print(x+",");
+//            	x = array[i];
             }
-            if (a==2){
-            	System.out.print(i+",");
-            	int[] array = new int[n];
-            	a] = i;
-            }
+            x = x + primes[i];
+            System.out.print(x+",");
         }
 		
 		
