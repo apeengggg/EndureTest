@@ -9,7 +9,6 @@ public class SepuluhX {
 			if((i%2)==0){
 				System.out.print(x+",");
 				x = x+8;
-				x++;
 			}else{
 				System.out.print(x+",");
 				x = x-17;
